@@ -1,0 +1,11 @@
+2018-06-12 13:29:23,057 WARN  [main] util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-06-12 13:29:23,574 INFO  [main] zookeeper.ReadOnlyZKClient: Connect 0x192d43ce to my.fqdn:2181 with session timeout=90000ms, retries 6, retry interval 1000ms, keepAlive=60000ms
+2018-06-12 13:29:29,172 INFO  [main] client.HBaseAdmin: Started disable of example_secure_client
+2018-06-12 13:29:30,456 INFO  [main] client.HBaseAdmin: Operation: DISABLE, Table Name: default:example_secure_client completed
+2018-06-12 13:29:30,702 INFO  [main] client.HBaseAdmin: Operation: DELETE, Table Name: default:example_secure_client completed
+2018-06-12 13:29:33,005 INFO  [main] client.HBaseAdmin: Operation: CREATE, Table Name: default:example_secure_client completed
+2018-06-12 13:29:33,006 INFO  [main] examples.ExampleSecureClient: Writing update: row1 -> value
+2018-06-12 13:29:33,071 INFO  [main] examples.ExampleSecureClient: Read row1: keyvalues={row1/f1:q1/1528824573066/Put/vlen=5/seqid=0}
+2018-06-12 13:29:33,071 INFO  [main] examples.ExampleSecureClient: Success!
+2018-06-12 13:29:33,071 INFO  [main] client.ConnectionImplementation: Closing master protocol: MasterService
+2018-06-12 13:29:33,071 INFO  [main] zookeeper.ReadOnlyZKClient: Close zookeeper connection 0x192d43ce to my.fqdn:2181
