@@ -13,3 +13,11 @@ WRFILE:/etc/security/keytabs/myself.keytab.
 Entry for principal myself with kvno 1, encryption type aes128-cts-hmac-sha1-96 added to keytab
 WRFILE:/etc/security/keytabs/myself.keytab.
 ```
+
+Grant that user permission in HBase
+
+```
+$ kinit -kt /etc/security/keytabs/hbase.headless.keytab hbase
+$ hbase shell
+hbase(main):001:0> grant 'myself', 'C'
+```

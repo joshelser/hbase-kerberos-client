@@ -12,8 +12,8 @@ public class ExampleSecureClientWithKeytabLogin {
   public static void main(String[] args) throws Exception {
     final Configuration conf = HBaseConfiguration.create();
 
-    final String principal = "FILL_ME_IN@REALM.COM";
-    final File keytab = new File("/etc/security/keytabs/principal.keytab");
+    final String principal = "myself@EXAMPLE.COM";
+    final File keytab = new File("/etc/security/keytabs/myself.keytab");
 
     assert keytab.isFile() : "Provided keytab '" + keytab + "' is not a regular file.";
 
